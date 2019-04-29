@@ -3,7 +3,7 @@ const Telegraf = require('telegraf');
 const Koa = require('koa');
 const koaBody = require('koa-body');
 
-const webhookUrl = ' http://localhost:5000/che-bot-60ec8/us-central1/helloWorld';
+const webhookUrl = 'https://us-central1-che-bot-60ec8.cloudfunctions.net/helloWorld';
 const token = '588830759:AAHdILba3TKkOBWbqQPcHO55VVWeJ01fo3E';
 
 console.log(' ================ START ================ ');
